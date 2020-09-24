@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #fbe2e5;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app__right {
+  text-align: center;
+}
+
+.graphBox {
+  margin-top: 60px;
+  background-color: #eb8f8f8d;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__dropdown {
+  background-color: #eb8f8f;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
